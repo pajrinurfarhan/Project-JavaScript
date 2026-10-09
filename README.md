@@ -14,22 +14,15 @@
 
 ## 📊 Progress
 
-🟢 Level 1 : ▓░░░░░░░░░  1/20
+🟢 Level 1 : ▓░░░░░░░░░  2/20
 📊 TOTAL   : 1/100
 ---
 
-## ✅ Project Selesai
-
-<!-- 
-  📌 CARA TAMBAH PROJECT BARU:
-  Copy 1 baris di bawah, ganti [NO], [NAMA], dan [LINK]
-  
-  | [NO] | [NAMA] | [🌐 Demo]([LINK]) | [📂 Code](./[FOLDER]) |
--->
-
-| # | Project | Demo | Code |
-|---|---------|------|------|
-| 001 | Nama Project | [🌐 Demo](https://USERNAME.github.io/100-js-projects/001-folder/) | [📂 Code](./001-folder/) |
+| # | Project | Status | Demo | Code |
+|---|---------|--------|------|------|
+| 001 | Hello World | ✅ | [🌐](...) | [📂](./001-hello-world/) |
+| 002 | Kalkulator | 🚧 | [🌐](...) | [📂](./002-kalkulator/) |
+| 003 | Digital Clock | ⏳ | - | - |
 
 ---
 
@@ -57,6 +50,11 @@ Project yang lagi dikerjakan & rencana selanjutnya:
 
 ## 📁 Struktur Folder
 
+
+**Penjelasan:**
+- Setiap project punya folder sendiri dengan format `NNN-nama-project`
+- Isi tiap folder konsisten: `index.html`, `style.css`, `script.js`, dan `README.md`
+- Root cuma berisi config & dokumentasi utama
 ---
 <div align="center">
   "Konsisten > Sempurna
