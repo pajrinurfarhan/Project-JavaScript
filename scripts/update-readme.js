@@ -96,17 +96,34 @@ function buildProgress(done) {
   return lines.join('\n');
 }
 
+// Link GitHub Pages dibuat otomatis dari nama repo.
+// - Repo biasa            -> https://user.github.io/nama-repo/
+// - Repo user.github.io   -> https://user.github.io/
+function getBaseUrl() {
+  const full = process.env.GITHUB_REPOSITORY || 'pajrinurfarhan/Project-JavaScript';
+  const [owner, repo] = full.split('/');
+  const host = `https://${owner.toLowerCase()}.github.io`;
+  const isUserSite = repo.toLowerCase() === `${owner.toLowerCase()}.github.io`;
+  return isUserSite ? `${host}/` : `${host}/${repo}/`;
+}
+
 function buildProjectList(projects) {
   if (projects.length === 0) {
     return '_Belum ada project yang selesai. Semangat! 💪_';
   }
 
+  const base = getBaseUrl();
+
   const rows = projects.map((folder) => {
     const num = folder.slice(0, 3);
-    return `| ${num} | [${prettyName(folder)}](./${folder}) |`;
+    return `| ${num} | [${prettyName(folder)}](./${folder}) | [🌐 Demo](${base}${folder}/) |`;
   });
 
-  return ['| # | Project |', '|---|---------|', ...rows].join('\n');
+  return [
+    '| # | Project | Demo |',
+    '|---|---------|------|',
+    ...rows,
+  ].join('\n');
 }
 
 // ---------- main ----------
