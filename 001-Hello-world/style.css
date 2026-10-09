@@ -51,8 +51,8 @@ body {
 /* Mobile Screen */
 @media screen and (max-width: 600px) {
   .wrap .button {
-    height: 3.5rem;
-    width: 26.25rem;
+    height: 2.8rem;
+    width: 25rem;
   }
   .text {
     display: flex;
