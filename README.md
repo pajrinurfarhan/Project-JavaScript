@@ -15,14 +15,14 @@
 ## 📊 Progress
 
 <!-- PROGRESS:START -->
-**1 / 100** project selesai (1%)
+**2 / 100** project selesai (2%)
 
 ```
-░░░░░░░░░░░░░░░░░░░░  1%
+░░░░░░░░░░░░░░░░░░░░  2%
 ```
 
 🏅 **Gelar sekarang:** 🌱 Pemula
-🎯 **Target berikutnya:** 🥉 Junior Coder — tinggal **19** project lagi
+🎯 **Target berikutnya:** 🥉 Junior Coder — tinggal **18** project lagi
 <!-- PROGRESS:END -->
 
 ## ✅ Project Selesai
@@ -31,6 +31,7 @@
 | # | Project | Demo |
 |---|---------|------|
 | 001 | [Hello World](./001-Hello-world) | [🌐 Demo](https://pajrinurfarhan.github.io/Project-JavaScript/001-Hello-world/) |
+| 002 | [Kalkulator Sederhana](./002-kalkulator-sederhana) | [🌐 Demo](https://pajrinurfarhan.github.io/Project-JavaScript/002-kalkulator-sederhana/) |
 <!-- PROJECTS:END -->
 
 ---
