@@ -15,13 +15,12 @@
 ## 📊 Progress
 
 <!-- PROGRESS:START -->
-<!-- PROGRESSS:END -->
-
-
+<!-- PROGRESS:END -->
 
 ## ✅ Project Selesai
 
-<!-- akan di-generate otomatis -->
+<!-- PROJECTS:START -->
+<!-- PROJECTS:END -->
 
 ---
 
