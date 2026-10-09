@@ -27,7 +27,7 @@
 
 | # | Project | Demo | Code |
 |---|---------|------|------|
-| - | *Belum ada project selesai* | - | - |
+| 001 | Nama Project | [🌐 Demo](https://USERNAME.github.io/100-js-projects/001-folder/) | [📂 Code](./001-folder/) |
 
 ---
 
