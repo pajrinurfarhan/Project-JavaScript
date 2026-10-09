@@ -14,15 +14,11 @@
 
 ## 📊 Progress
 
-🟢 Level 1 : ▓░░░░░░░░░  2/20
-📊 TOTAL   : 1/100
----
+<!-- akan di-generate otomatis -->
 
-| # | Project | Status | Demo | Code |
-|---|---------|--------|------|------|
-| 001 | Hello World | ✅ | [🌐](...) | [📂](./001-hello-world/) |
-| 002 | Kalkulator | 🚧 | [🌐](...) | [📂](./002-kalkulator/) |
-| 003 | Digital Clock | ⏳ | - | - |
+## ✅ Project Selesai
+
+<!-- akan di-generate otomatis -->
 
 ---
 
