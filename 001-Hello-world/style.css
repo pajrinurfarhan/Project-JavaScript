@@ -69,7 +69,7 @@ body {
   .text {
     display: flex;
     color: var(--secondary);
-    font: 800 4rem "Fredoka";
+    font: 800 2rem "Fredoka";
   }
 }
 
@@ -78,7 +78,6 @@ body {
   .wrap .button {
     height: 5rem;
     width: 37.5rem;
-    font: 700 1.25rem "Fredoka";
   }
   .text {
     display: flex;
