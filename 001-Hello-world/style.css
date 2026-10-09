@@ -1,0 +1,49 @@
+:root {
+  --primary: #2563eb;
+  --secondary: #0f172a;
+  --accent: #2233ed;
+  --background: #f8fafc;
+  --text: #e2e8f0;
+}
+
+*,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--text);
+}
+.wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.wrap .button {
+  height: 80px;
+  width: 600px;
+  cursor: pointer;
+  letter-spacing: 5px;
+  font: 700 25px "Fredoka";
+  border-radius: 20px;
+  border: 2px solid var(--secondary);
+  background-color: var(--primary);
+  transition: 0.3s;
+}
+
+.wrap .button:hover {
+  background-color: var(--secondary);
+  color: var(--text);
+}
+
+.text {
+  display: flex;
+  color: var(--secondary);
+  font: 800 60px "Fredoka";
+  letter-spacing: 10px;
+}
