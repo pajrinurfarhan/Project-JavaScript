@@ -14,6 +14,8 @@
 
 ## 📊 Progress
 
+🟢 Level 1 : ▓░░░░░░░░░  1/20
+📊 TOTAL   : 1/100
 ---
 
 ## ✅ Project Selesai
