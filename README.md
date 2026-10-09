@@ -28,9 +28,9 @@
 ## ✅ Project Selesai
 
 <!-- PROJECTS:START -->
-| # | Project |
-|---|---------|
-| 001 | [Hello World](./001-Hello-world) |
+| # | Project | Demo |
+|---|---------|------|
+| 001 | [Hello World](./001-Hello-world) | [🌐 Demo](https://pajrinurfarhan.github.io/Project-JavaScript/001-Hello-world/) |
 <!-- PROJECTS:END -->
 
 ---
