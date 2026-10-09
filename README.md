@@ -14,7 +14,10 @@
 
 ## 📊 Progress
 
-<!-- akan di-generate otomatis -->
+<-- PROGRESS:START -->
+<-- PROGRESSS:END -->
+
+
 
 ## ✅ Project Selesai
 
