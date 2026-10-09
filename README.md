@@ -15,11 +15,22 @@
 ## 📊 Progress
 
 <!-- PROGRESS:START -->
+**1 / 100** project selesai (1%)
+
+```
+░░░░░░░░░░░░░░░░░░░░  1%
+```
+
+🏅 **Gelar sekarang:** 🌱 Pemula
+🎯 **Target berikutnya:** 🥉 Junior Coder — tinggal **19** project lagi
 <!-- PROGRESS:END -->
 
 ## ✅ Project Selesai
 
 <!-- PROJECTS:START -->
+| # | Project |
+|---|---------|
+| 001 | [Hello World](./001-Hello-world) |
 <!-- PROJECTS:END -->
 
 ---
