@@ -1,0 +1,225 @@
+:root {
+  --bg: #1e1e2e;
+  --btn-angka: #2d2d44;
+  --btn-angka-hover: #3d3d5c;
+  --btn-opp: #f59e0b;
+  --btn-opp-hover: #d97706;
+  --sm-dgn: #10b981;
+  --sm-dgn-hover: #059669;
+  --text: #f8fafc;
+  --layar: #0f0f1a;
+  --clear: #ef4444;
+  --clear-hover: #dc2626;
+  --bck-spc: #f97316;
+  --bck-spc-hover: #ea580c;
+}
+
+*,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container .container-kalkulator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 28vw;
+  height: 80vh;
+  gap: 20px;
+  border: 2px solid var(--btn-opp);
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.container .container-kalkulator .wrap-hasil {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 85%;
+  height: 20%;
+  color: var(--text);
+  border-radius: 20px;
+  border: 1px solid var(--btn-angka-hover);
+  background-color: var(--layar);
+  /* margin-top: 1rem; */
+  /* margin-top: 20px; */
+}
+
+.container .container-kalkulator .wrap-hasil .hasil {
+  text-align: end;
+  width: 90%;
+  font: 700 50px "VT323";
+  /* margin-right: 10px; */
+  /* border: 1px solid red; */
+}
+
+.container .container-kalkulator .wrap-input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  /* border: 1px solid blue; */
+}
+
+.baris1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 280px;
+  height: 65px;
+  color: var(--text);
+  /* border: 1px solid red; */
+}
+
+.baris2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 280px;
+  height: 65px;
+  color: var(--text);
+  /* border: 1px solid red; */
+}
+
+.baris3 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 280px;
+  height: 65px;
+  color: var(--text);
+  /* border: 1px solid red; */
+}
+
+.baris4 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 280px;
+  height: 65px;
+  color: var(--text);
+  /* border: 1px solid red; */
+}
+
+.baris5 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 280px;
+  height: 65px;
+  color: var(--text);
+  /* border: 1px solid red; */
+}
+
+.no {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  font: 700 35px "IBM Plex Sans";
+  cursor: pointer;
+  border-radius: 10px;
+  border-bottom: 3px solid var(--btn-angka-hover);
+  background-color: var(--btn-angka);
+  transition: 0.3s;
+}
+
+.no:hover {
+  background-color: var(--btn-angka-hover);
+  border-bottom: 0px;
+}
+
+.op {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  font: 700 35px "IBM Plex Sans";
+  cursor: pointer;
+  border-radius: 10px;
+  border-bottom: 3px solid var(--btn-opp-hover);
+  background-color: var(--btn-opp);
+  transition: 0.3s;
+}
+
+.op:hover {
+  background-color: var(--btn-opp-hover);
+  border-bottom: 0px;
+}
+
+.eq {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 126px;
+  height: 60px;
+  font: 700 35px "IBM Plex Sans";
+  cursor: pointer;
+  border-radius: 10px;
+  border-bottom: 3px solid var(--sm-dgn-hover);
+  background-color: var(--sm-dgn);
+  transition: 0.3s;
+}
+
+.eq:hover {
+  background-color: var(--sm-dgn-hover);
+  border-bottom: 0px;
+}
+
+.clear {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 126px;
+  height: 60px;
+  font: 700 35px "IBM Plex Sans";
+  cursor: pointer;
+  border-radius: 10px;
+  border-bottom: 3px solid var(--clear-hover);
+  background-color: var(--clear);
+  transition: 0.3s;
+}
+
+.clear:hover {
+  background-color: var(--clear-hover);
+  border-bottom: 0px;
+}
+
+.rm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  font: 700 20px "IBM Plex Sans";
+  cursor: pointer;
+  border-radius: 10px;
+  border-bottom: 3px solid var(--bck-spc-hover);
+  background-color: var(--bck-spc);
+  transition: 0.3s;
+}
+
+.rm:hover {
+  background-color: var(--bck-spc-hover);
+  border-bottom: 0px;
+}
