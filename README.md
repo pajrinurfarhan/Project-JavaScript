@@ -54,3 +54,9 @@ Project yang lagi dikerjakan & rencana selanjutnya:
 ---
 
 ## 📁 Struktur Folder
+
+---
+<div align="center">
+  "Konsisten > Sempurna
+  Made with ☕ 
+</div>
