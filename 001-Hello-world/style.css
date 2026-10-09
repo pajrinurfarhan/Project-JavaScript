@@ -25,12 +25,12 @@ body {
 }
 
 .wrap .button {
-  height: 80px;
-  width: 600px;
+  height: 5rem;
+  width: 37.5rem;
   cursor: pointer;
-  letter-spacing: 5px;
-  font: 700 25px "Fredoka";
-  border-radius: 20px;
+  letter-spacing: 0.3rem;
+  font: 700 1.25rem "Fredoka";
+  border-radius: 1.2px;
   border: 2px solid var(--secondary);
   background-color: var(--primary);
   transition: 0.3s;
@@ -44,6 +44,44 @@ body {
 .text {
   display: flex;
   color: var(--secondary);
-  font: 800 60px "Fredoka";
-  letter-spacing: 10px;
+  font: 800 5rem "Fredoka";
+  letter-spacing: 0.6rem;
+}
+
+/* Mobile Screen */
+@media screen and (max-width: 600px) {
+  .wrap .button {
+    height: 3.5rem;
+    width: 26.25rem;
+  }
+  .text {
+    display: flex;
+    font: 800 3.5rem "Fredoka";
+  }
+}
+
+/* Tablet Screen */
+@media screen and (max-width: 768px) {
+  .wrap .button {
+    height: 4rem;
+    width: 30rem;
+  }
+  .text {
+    display: flex;
+    color: var(--secondary);
+    font: 800 4rem "Fredoka";
+  }
+}
+
+/* Laptop Screen */
+@media screen and (max-width: 992px) {
+  .wrap .button {
+    height: 5rem;
+    width: 37.5rem;
+    font: 700 1.25rem "Fredoka";
+  }
+  .text {
+    display: flex;
+    font: 800 5rem "Fredoka";
+  }
 }
