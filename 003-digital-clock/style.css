@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0a0a0f;
+  color: #00ff41;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.wrap-clock {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #00ff41;
+  box-shadow:
+    0 0 20px #00ff41,
+    inset 0 0 20px rgba(0, 255, 65, 0.2);
+  border-radius: 100px;
+  width: clamp(280px, 90vw, 600px);
+  height: clamp(100px, 25vw, 200px);
+  font: 600 clamp(2rem, 12vw, 90px) "Courier New";
+  text-shadow:
+    0 0 10px #00ff41,
+    0 0 20px #00ff41;
+  letter-spacing: clamp(1px, 0.8vw, 5px);
+  animation: pulse 2s infinite alternate;
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+
+@keyframes pulse {
+  from {
+    opacity: 0.85;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.wrap-clock::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    transparent 0%,
+    rgba(0, 255, 65, 0.5) 50%,
+    transparent 100%
+  );
+  transition: left 0.8s ease;
+  pointer-events: none;
+}
+
+.wrap-clock:hover::after {
+  left: 100%;
+}
+
+.wrap-clock:hover {
+  transform: scale(1.05);
+  border-color: #00ffaa;
+  box-shadow:
+    0 0 30px #00ffaa,
+    0 0 60px #00ff41,
+    inset 0 0 30px rgba(0, 255, 65, 0.3);
+  color: #00ffaa;
+  text-shadow:
+    0 0 15px #00ffaa,
+    0 0 30px #00ffaa,
+    0 0 60px #00ffaa;
+  transition: all 0.3s ease;
+}
+
+@media (max-width: 400px) {
+  .wrap-clock {
+    border-radius: 40px;
+    height: clamp(80px, 22vw, 120px);
+  }
+}
+
+@media (min-width: 1400px) {
+  .wrap-clock {
+    width: 700px;
+    height: 220px;
+    font-size: 100px;
+  }
+}
