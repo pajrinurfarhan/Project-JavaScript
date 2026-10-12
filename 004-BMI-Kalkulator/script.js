@@ -11,7 +11,7 @@ hitung.addEventListener("click", () => {
   // 2. Validasi: kalau bukan angka / kosong / <= 0 → tampilkan error
   if (isNaN(berat) || isNaN(tinggi) || berat <= 0 || tinggi <= 0) {
     hasil.className = "hasil";
-    hasil.textContent = "⚠️ Masukan berat dan tinggi badan yang valid!";
+    hasil.textContent = "NGISI DOANG LU GA BECUS";
     return;
   }
 
