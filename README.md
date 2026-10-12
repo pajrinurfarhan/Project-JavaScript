@@ -45,7 +45,8 @@ Project yang lagi dikerjakan & rencana selanjutnya:
 - ✅ 001. Hello World
 - ✅ 002. Simple Calculator
 - ✅ 003. Digital Clock
-- ⏳ 004. BMI Calculator
+- ✅ 004. BMI Calculator
+- ⏳ 005. Temperature Conversion
 
 ---
 
