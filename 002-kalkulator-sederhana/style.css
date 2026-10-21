@@ -15,7 +15,7 @@
 
   /* Ukuran 1 tombol. Semua ukuran lain ikut menghitung dari sini,
      jadi cukup ubah angka ini di media query untuk mengecilkan/membesarkan semuanya */
-  --b: 60px;
+  --b: min(60px, calc((100dvh - 150px) / 6.6));
 }
 
 *,
@@ -27,6 +27,7 @@ html {
 
 body {
   background-color: var(--bg);
+  overflow-x: hidden;
 }
 
 .container {
@@ -70,7 +71,9 @@ body {
 .container .container-kalkulator .wrap-hasil .hasil {
   text-align: end;
   width: 90%;
-  font: 700 calc(var(--b) * 0.83) "VT323", monospace;
+  font:
+    700 calc(var(--b) * 0.83) "VT323",
+    monospace;
   overflow-x: auto; /* angka panjang digeser, nggak bikin layout melebar */
   white-space: nowrap;
 }
@@ -88,8 +91,10 @@ body {
 .baris3,
 .baris4,
 .baris5 {
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: repeat(4, var(--b));
+  column-gap: 10px;
+  justify-content: center;
   align-items: center;
   width: calc(var(--b) * 4 + 40px);
   height: calc(var(--b) + 5px);
@@ -102,7 +107,9 @@ body {
   align-items: center;
   width: var(--b);
   height: var(--b);
-  font: 700 calc(var(--b) * 0.58) "IBM Plex Sans", sans-serif;
+  font:
+    700 calc(var(--b) * 0.58) "IBM Plex Sans",
+    sans-serif;
   cursor: pointer;
   border-radius: 10px;
   border-bottom: 3px solid var(--btn-angka-hover);
@@ -121,7 +128,9 @@ body {
   align-items: center;
   width: var(--b);
   height: var(--b);
-  font: 700 calc(var(--b) * 0.58) "IBM Plex Sans", sans-serif;
+  font:
+    700 calc(var(--b) * 0.58) "IBM Plex Sans",
+    sans-serif;
   cursor: pointer;
   border-radius: 10px;
   border-bottom: 3px solid var(--btn-opp-hover);
@@ -138,9 +147,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: calc(var(--b) * 2 + 6px);
+  grid-column: span 2;
+  width: 100%;
   height: var(--b);
-  font: 700 calc(var(--b) * 0.58) "IBM Plex Sans", sans-serif;
+  font:
+    700 calc(var(--b) * 0.58) "IBM Plex Sans",
+    sans-serif;
   cursor: pointer;
   border-radius: 10px;
   border-bottom: 3px solid var(--sm-dgn-hover);
@@ -157,9 +169,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: calc(var(--b) * 2 + 6px);
+  grid-column: span 2;
+  width: 100%;
   height: var(--b);
-  font: 700 calc(var(--b) * 0.58) "IBM Plex Sans", sans-serif;
+  font:
+    700 calc(var(--b) * 0.58) "IBM Plex Sans",
+    sans-serif;
   cursor: pointer;
   border-radius: 10px;
   border-bottom: 3px solid var(--clear-hover);
@@ -178,7 +193,9 @@ body {
   align-items: center;
   width: var(--b);
   height: var(--b);
-  font: 700 calc(var(--b) * 0.33) "IBM Plex Sans", sans-serif;
+  font:
+    700 calc(var(--b) * 0.33) "IBM Plex Sans",
+    sans-serif;
   cursor: pointer;
   border-radius: 10px;
   border-bottom: 3px solid var(--bck-spc-hover);
@@ -194,14 +211,14 @@ body {
 /* Tablet ==========> */
 @media (max-width: 1024px) {
   :root {
-    --b: 70px;
+    --b: min(70px, calc((100dvh - 150px) / 6.6));
   }
 }
 
 /* HP ==========> */
 @media (max-width: 480px) {
   :root {
-    --b: min(16vw, 64px);
+    --b: min(16vw, 64px, calc((100dvh - 150px) / 6.6));
   }
 
   .container {
