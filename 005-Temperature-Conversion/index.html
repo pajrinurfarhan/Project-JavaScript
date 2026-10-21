@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Konversi Suhu</title>
+
+    <!-- CSS Style -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>KONVERSI SUHU</h1>
+      <!-- Button selector suhu -->
+      <div class="wrapper-suhu">
+        <button class="suhu">Celcius</button>
+        <button class="suhu">Fahrenheit</button>
+        <button class="suhu">Kelvin</button>
+        <button class="suhu">Reamur</button>
+      </div>
+
+      <!-- Input angka -->
+      <div class="wrapper-input">
+        <input type="number" placeholder="Masukan Suhu ..." class="input" />
+        <h2 class="suhu-huruf"></h2>
+      </div>
+
+      <button type="submit" id="submit">Sumbit</button>
+
+      <!-- Hasil  -->
+      <div class="wrapper-hasil">
+        <div class="hasil-suhu">
+          <span class="nama">Celcius</span>
+          <span class="hasil-c"></span>
+        </div>
+        <div class="hasil-suhu">
+          <span class="nama">Fahrenheit</span>
+          <span class="hasil-f"></span>
+        </div>
+        <div class="hasil-suhu">
+          <span class="nama">Kelvin</span>
+          <span class="hasil-k"></span>
+        </div>
+        <div class="hasil-suhu">
+          <span class="nama">Reamur</span>
+          <span class="hasil-r"></span>
+        </div>
+      </div>
+    </div>
+
+    <!-- JS -->
+    <script src="script.js"></script>
+  </body>
+</html>
