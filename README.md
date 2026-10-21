@@ -48,7 +48,7 @@ Project yang lagi dikerjakan & rencana selanjutnya:
 - ✅ 003. Digital Clock
 - ✅ 004. BMI Calculator
 - ✅ 005. Temperature Conversion
-- ⏳ 005. Discount Calculator
+- ⏳ 006. Discount Calculator
 
 ---
 
