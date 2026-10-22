@@ -15,14 +15,14 @@
 ## 📊 Progress
 
 <!-- PROGRESS:START -->
-**5 / 100** project selesai (5%)
+**6 / 100** project selesai (6%)
 
 ```
-█░░░░░░░░░░░░░░░░░░░  5%
+█░░░░░░░░░░░░░░░░░░░  6%
 ```
 
 🏅 **Gelar sekarang:** 🌱 Pemula
-🎯 **Target berikutnya:** 🥉 Junior Coder — tinggal **15** project lagi
+🎯 **Target berikutnya:** 🥉 Junior Coder — tinggal **14** project lagi
 <!-- PROGRESS:END -->
 
 ## ✅ Project Selesai
@@ -35,6 +35,7 @@
 | 003 | [Digital Clock](./003-digital-clock) | [🌐 Demo](https://pajrinurfarhan.github.io/Project-JavaScript/003-digital-clock/) |
 | 004 | [BMI Kalkulator](./004-BMI-Kalkulator) | [🌐 Demo](https://pajrinurfarhan.github.io/Project-JavaScript/004-BMI-Kalkulator/) |
 | 005 | [Temperature Conversion](./005-Temperature-Conversion) | [🌐 Demo](https://pajrinurfarhan.github.io/Project-JavaScript/005-Temperature-Conversion/) |
+| 006 | [Discount Calculator](./006-Discount-Calculator) | [🌐 Demo](https://pajrinurfarhan.github.io/Project-JavaScript/006-Discount-Calculator/) |
 <!-- PROJECTS:END -->
 
 ---
