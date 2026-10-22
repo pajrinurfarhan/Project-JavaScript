@@ -1,0 +1,93 @@
+:root {
+  --bg: #f5f9fc;
+  --text: #0a2233;
+  --button: #006199;
+  --card-bg: #ffffff;
+  --border: #d6e3ee;
+  --accent: #ffd444;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Clash Display", sans-serif;
+  color: var(--text);
+  background-color: var(--bg);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  height: 70%;
+  border: 2px solid var(--accent);
+  border-radius: 16px;
+  background-color: var(--card-bg);
+}
+
+/* JUDUL ===========================================> */
+.container h2 {
+  position: fixed;
+  top: 20%;
+  font-weight: 800;
+  font-size: 1.7rem;
+  letter-spacing: 2px;
+  color: var(--text);
+}
+
+.container h2 span {
+  color: var(--accent);
+  /* text-shadow: 0 0 4px var(--text); */
+}
+
+/* QUOTE WRAPP =====================================> */
+.container .quote-wrapp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 50%;
+  margin-top: 2rem;
+  font-size: 16px;
+  background-color: var(--accent);
+  border: 2px solid var(--text);
+  border-radius: 8px;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* BUTTON ==========================================> */
+.container .btn {
+  margin-top: 1.5rem;
+  width: 32%;
+  height: 10%;
+  color: var(--text);
+  background-color: var(--accent);
+  border: 1.3px solid var(--text);
+  border-radius: 8px;
+  outline: none;
+  transition: 0.2s;
+  font-size: 0.75rem;
+  font-family: "Clash Display";
+  font-weight: 500;
+}
+
+.container .btn:active {
+  background-color: var(--accent);
+  border-bottom: 1.3px solid var(--text);
+  color: var(--text);
+}
+
+.container .btn:hover {
+  box-shadow: 0 0 16px var(--accent);
+}
