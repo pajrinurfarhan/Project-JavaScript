@@ -1,0 +1,125 @@
+/* ====================== Fontsource ===================== */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource-variable/inter-tight@5.3.0/index.css");
+
+:root {
+  --bg: #f8fafc;
+  --text: #0f172a;
+  --text-sec: #475569;
+  --btn: #2563eb;
+  --btn-sec: #e2e8f0;
+  --border: #cbd5e1;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: var(--bg);
+  border: 1px solid red;
+  font-family: "Inter Tight Variable", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 400px;
+  height: 400px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+
+/* <========================= Judul============================> */
+.container h1 {
+  font: 800 24px "Inter Tight Variable";
+  color: var(--text);
+}
+
+/* <========================= Input ===========================> */
+.container .wrap-input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+}
+
+.container .wrap-input .input {
+  width: 300px;
+  height: 32px;
+  padding-left: 16px;
+  box-sizing: border-box;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+
+.container .wrap-input .input:focus {
+  outline: none;
+  border: 1px solid var(--btn);
+  box-shadow: 0 0 3px var(--btn);
+}
+
+.container .wrap-input label {
+  width: 300px;
+  text-align: left;
+  font-size: 14px;
+  color: var(--text-sec);
+}
+
+/* Panah Atas / Bawah Hilang Pada input ==========> */
+/* input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+} */
+
+/* <======================== Button Submit ========================> */
+.container .submit {
+  width: 300px;
+  height: 40px;
+  background-color: var(--btn);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.container .submit:active {
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+/* <======================== Hasil ============================> */
+.container .hasil {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: absolute;
+  top: 80px;
+  right: 80px;
+  width: 300px;
+  height: 200px;
+  padding-top: 20px;
+  padding-left: 20px;
+  color: var(--text);
+  border: 1px solid transparent;
+  border-radius: 8px;
+}
+
+.container .hasil.tampil {
+  border: 1px solid var(--border);
+}

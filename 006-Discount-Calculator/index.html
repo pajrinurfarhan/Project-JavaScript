@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>KALKULATOR DISKON</h1>
+      <div class="wrap-input">
+        <label>Nama Produk</label>
+        <input
+          type="text"
+          placeholder="Nama Produk ..."
+          class="input-text input"
+        />
+        <label>Harga Produk</label>
+        <input
+          type="text"
+          placeholder="Harga Produk ..."
+          class="input-harga input"
+          inputmode="numeric"
+        />
+        <label>Diskon (%)</label>
+        <input
+          type="text"
+          placeholder="Diskon Produk ..."
+          class="input-diskon input"
+          inputmode="numeric"
+          maxlength="4"
+        />
+      </div>
+      <button type="submit" class="submit">Submit</button>
+      <div class="hasil">
+        <p class="nama"></p>
+        <p class="harga"></p>
+        <p class="total"></p>
+      </div>
+    </div>
+
+    <!-- JS -->
+    <script src="script.js"></script>
+  </body>
+</html>
