@@ -15,14 +15,14 @@
 ## 📊 Progress
 
 <!-- PROGRESS:START -->
-**7 / 100** project selesai (7%)
+**8 / 100** project selesai (8%)
 
 ```
-█░░░░░░░░░░░░░░░░░░░  7%
+██░░░░░░░░░░░░░░░░░░  8%
 ```
 
 🏅 **Gelar sekarang:** 🌱 Pemula
-🎯 **Target berikutnya:** 🥉 Junior Coder — tinggal **13** project lagi
+🎯 **Target berikutnya:** 🥉 Junior Coder — tinggal **12** project lagi
 <!-- PROGRESS:END -->
 
 ## ✅ Project Selesai
@@ -37,6 +37,7 @@
 | 005 | [Temperature Conversion](./005-Temperature-Conversion) | [🌐 Demo](https://pajrinurfarhan.github.io/Project-JavaScript/005-Temperature-Conversion/) |
 | 006 | [Discount Calculator](./006-Discount-Calculator) | [🌐 Demo](https://pajrinurfarhan.github.io/Project-JavaScript/006-Discount-Calculator/) |
 | 007 | [Random Quote](./007-Random-Quote) | [🌐 Demo](https://pajrinurfarhan.github.io/Project-JavaScript/007-Random-Quote/) |
+| 008 | [Password Generator](./008-Password-Generator) | [🌐 Demo](https://pajrinurfarhan.github.io/Project-JavaScript/008-Password-Generator/) |
 <!-- PROJECTS:END -->
 
 ---
