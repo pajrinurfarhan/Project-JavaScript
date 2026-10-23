@@ -53,7 +53,8 @@ Project yang lagi dikerjakan & rencana selanjutnya:
 - ✅ 005. Temperature Conversion
 - ✅ 006. Discount Calculator
 - ✅ 007. Random Quote
-- ⏳ 008. Password Generator
+- ✅ 008. Password Generator
+- ⏳ 009. Switch Theme
 
 ---
 
