@@ -1,0 +1,191 @@
+:root {
+  --bg-page: #0f172a;
+  --bg-container: #1e293b;
+  --bg-hasil: #0b1220;
+  --text-title: #f1f5f9;
+  --text-password: #38bdf8;
+  --accent: #38bdf8;
+  --track: #334155;
+  --border: #334155;
+}
+
+*,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 16px;
+  background-color: var(--bg-page);
+  color: var(--text-title);
+  font-family: "Sora", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  min-height: 60vh;
+  padding: 2rem 1rem;
+  gap: 1.5rem;
+  border: 2px solid var(--border);
+  border-radius: 8px;
+  background-color: var(--bg-container);
+}
+
+/* JUDUL ================================> */
+.container h2 {
+  color: var(--text-title);
+  text-align: center;
+}
+
+/* HASIL ================================> */
+.container .hasil {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  min-height: 56px;
+  padding: 10px 48px 10px 16px;
+  font-size: 16px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background-color: var(--bg-hasil);
+}
+
+/* ===== password ===== */
+.container p {
+  color: var(--text-password);
+}
+
+.container .hasil p {
+  word-break: break-all;
+  text-align: center;
+}
+
+/* ============ Icon ========= */
+.container .copy {
+  position: absolute;
+  right: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.container .copy:hover,
+.container .copy:active {
+  color: var(--text-password);
+}
+
+/* Input Range ==============================> */
+.container .input-wrapp {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+}
+
+input[type="range"] {
+  accent-color: var(--accent);
+  width: 53%;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+/* Button ==================================> */
+.container .btn {
+  width: 30%;
+  min-width: 140px;
+  padding: 12px 0;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background-color: var(--accent);
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.container .btn:hover {
+  box-shadow: 0 0 8px var(--accent);
+}
+
+.container .btn:active {
+  box-shadow: 0 0 8px var(--accent);
+  background-color: var(--bg-container);
+  color: var(--text-password);
+}
+
+/* ============ TABLET (maks 1024px) ============ */
+@media (max-width: 1024px) {
+  .container {
+    width: 75vw;
+    min-height: 50vh;
+  }
+
+  .container .hasil {
+    width: 75%;
+  }
+
+  input[type="range"] {
+    width: 60%;
+  }
+
+  .container .btn {
+    width: 40%;
+  }
+}
+
+/* ============ HP (maks 600px) ============ */
+@media (max-width: 600px) {
+  body {
+    padding: 12px;
+  }
+
+  .container {
+    width: 100%;
+    min-height: auto;
+    padding: 2rem 1rem;
+    gap: 1.2rem;
+  }
+
+  .container h2 {
+    font-size: 1.3rem;
+  }
+
+  .container .hasil {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .container .copy {
+    font-size: 20px;
+  }
+
+  .container .input-wrapp {
+    width: 100%;
+  }
+
+  input[type="range"] {
+    width: 70%;
+  }
+
+  .container .btn {
+    width: 100%;
+    padding: 14px 0;
+  }
+}
