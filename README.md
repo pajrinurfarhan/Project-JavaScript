@@ -54,7 +54,8 @@ Project yang lagi dikerjakan & rencana selanjutnya:
 - ✅ 006. Discount Calculator
 - ✅ 007. Random Quote
 - ✅ 008. Password Generator
-- ⏳ 009. Switch Theme
+- ✅ 009. Switch Theme
+- ⏳ 010. To Do List
 
 ---
 
