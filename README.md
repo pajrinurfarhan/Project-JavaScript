@@ -15,14 +15,14 @@
 ## 📊 Progress
 
 <!-- PROGRESS:START -->
-**8 / 100** project selesai (8%)
+**9 / 100** project selesai (9%)
 
 ```
-██░░░░░░░░░░░░░░░░░░  8%
+██░░░░░░░░░░░░░░░░░░  9%
 ```
 
 🏅 **Gelar sekarang:** 🌱 Pemula
-🎯 **Target berikutnya:** 🥉 Junior Coder — tinggal **12** project lagi
+🎯 **Target berikutnya:** 🥉 Junior Coder — tinggal **11** project lagi
 <!-- PROGRESS:END -->
 
 ## ✅ Project Selesai
@@ -38,6 +38,7 @@
 | 006 | [Discount Calculator](./006-Discount-Calculator) | [🌐 Demo](https://pajrinurfarhan.github.io/Project-JavaScript/006-Discount-Calculator/) |
 | 007 | [Random Quote](./007-Random-Quote) | [🌐 Demo](https://pajrinurfarhan.github.io/Project-JavaScript/007-Random-Quote/) |
 | 008 | [Password Generator](./008-Password-Generator) | [🌐 Demo](https://pajrinurfarhan.github.io/Project-JavaScript/008-Password-Generator/) |
+| 009 | [Switch Theme](./009-Switch-Theme) | [🌐 Demo](https://pajrinurfarhan.github.io/Project-JavaScript/009-Switch-Theme/) |
 <!-- PROJECTS:END -->
 
 ---
