@@ -1,0 +1,88 @@
+/* Googlefonts.com */
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
+
+/* ===== MODE CERAH (default) ===== */
+:root {
+  color-scheme: light;
+
+  --bg: #f4f4f2;
+  --surface: #ebebe8;
+  --border: #d4d4d0;
+  --text: #1c1c1c;
+  --text-muted: #6b6b68;
+  /* --accent: #1c1c1c; */
+  /* --accent-text: #f4f4f2; */
+}
+
+/* ===== MODE GELAP ===== */
+:root.dark {
+  color-scheme: dark;
+
+  --bg: #161616;
+  --surface: #1f1f1f;
+  --border: #333333;
+  --text: #e4e4e1;
+  --text-muted: #8f8f8c;
+  /* --accent: #e4e4e1; */
+  /* --accent-text: #161616; */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Space Grotesk", sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+/* ===== ANIMASI LINGKARAN (View Transitions) ===== */
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation: none;
+  mix-blend-mode: normal;
+}
+
+/* ===== TOMBOL ===== */
+#button {
+  width: 6rem;
+  height: 6rem;
+  background-color: var(--surface);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 50%;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+#button:hover {
+  background-color: var(--border);
+  border-color: var(--text-muted);
+}
+
+#button:active {
+  background-color: var(--text-muted);
+  color: var(--accent-text);
+  border-color: var(--text-muted);
+}
+
+/* Cerah: tampil bulan, sembunyiin matahari */
+#button i:last-child {
+  display: none;
+}
+
+/* Gelap: tampil matahari, sembunyiin bulan */
+:root.dark #button i:first-child {
+  display: none;
+}
+
+:root.dark #button i:last-child {
+  display: inline-block;
+}
